@@ -1,0 +1,31 @@
+apiVersion: 1
+datasources:
+  - name: Natural Gas Prices (DataHub)
+    type: marcusolsson-csv-datasource
+    isDefault: true
+    editable: true
+    url: https://datahub.io/core/natural-gas/r/daily.csv
+    jsonData:
+      storage: http
+
+  - name: query1
+    type: marcusolsson-csv-datasource
+    editable: true
+    url: /opt/results/query1.csv
+    jsonData:
+      storage: local
+
+  - name: query2
+    type: marcusolsson-csv-datasource
+    editable: true
+    url: /opt/results/query2.csv
+    jsonData:
+      storage: local
+
+  - name: query3
+    type: marcusolsson-csv-datasource
+    editable: true
+    url: /opt/results/query3.csv
+    jsonData:
+      storage: local
+

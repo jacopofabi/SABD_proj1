@@ -1,0 +1,91 @@
+2022-06-13 13:17:52,751 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 13:17:52,758 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 13:17:52,759 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 13:17:52,759 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 13:17:52,769 INFO [main] org.apache.nifi.bootstrap.RunNiFi Runtime Java version: 1.8.0_322
+2022-06-13 13:17:52,816 INFO [main] org.apache.nifi.bootstrap.Command Starting Apache NiFi...
+2022-06-13 13:17:52,826 INFO [main] org.apache.nifi.bootstrap.Command Working Directory: /opt/nifi/nifi-current
+2022-06-13 13:17:52,837 INFO [main] org.apache.nifi.bootstrap.Command Command: /usr/local/openjdk-8/bin/java -classpath /opt/nifi/nifi-current/./conf:/opt/nifi/nifi-current/./lib/nifi-runtime-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-server-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/logback-core-1.2.11.jar:/opt/nifi/nifi-current/./lib/nifi-properties-1.16.1.jar:/opt/nifi/nifi-current/./lib/jetty-schemas-5.2.jar:/opt/nifi/nifi-current/./lib/nifi-stateless-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/log4j-over-slf4j-1.7.36.jar:/opt/nifi/nifi-current/./lib/nifi-property-utils-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-framework-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/logback-classic-1.2.11.jar:/opt/nifi/nifi-current/./lib/slf4j-api-1.7.36.jar:/opt/nifi/nifi-current/./lib/jcl-over-slf4j-1.7.36.jar:/opt/nifi/nifi-current/./lib/nifi-nar-utils-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/javax.servlet-api-3.1.0.jar:/opt/nifi/nifi-current/./lib/nifi-stateless-bootstrap-1.16.1.jar:/opt/nifi/nifi-current/./lib/jul-to-slf4j-1.7.36.jar -Dorg.apache.jasper.compiler.disablejsr199=true -Xmx2048m -Xms512m -Dcurator-log-only-first-connection-issue-as-error-level=true -Djavax.security.auth.useSubjectCredsOnly=true -Djava.security.egd=file:/dev/urandom -Dzookeeper.admin.enableServer=false -Dsun.net.http.allowRestrictedHeaders=true -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djava.protocol.handler.pkgs=sun.net.www.protocol -Dnifi.properties.file.path=/opt/nifi/nifi-current/./conf/nifi.properties -Dnifi.bootstrap.listen.port=32809 -Dapp=NiFi -Dorg.apache.nifi.bootstrap.config.log.dir=/opt/nifi/nifi-current/logs org.apache.nifi.NiFi 
+2022-06-13 13:17:53,274 INFO [main] org.apache.nifi.bootstrap.Command Launched Apache NiFi with Process ID 108
+2022-06-13 13:17:57,051 INFO [NiFi Bootstrap Command Listener] org.apache.nifi.bootstrap.RunNiFi Apache NiFi now running and listening for Bootstrap requests on port 46631
+2022-06-13 13:24:13,483 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 13:24:13,489 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 13:24:13,489 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 13:24:13,489 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 13:24:13,511 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi has accepted the Shutdown Command and is shutting down now
+2022-06-13 13:24:13,559 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [108] shutdown in progress...
+2022-06-13 13:24:15,563 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [108] shutdown in progress...
+2022-06-13 13:24:16,687 INFO [main] org.apache.nifi.bootstrap.RunNiFi A shutdown was initiated. Will not restart NiFi
+2022-06-13 13:24:17,575 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [108] shutdown completed
+2022-06-13 13:24:40,656 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 13:24:40,690 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 13:24:40,691 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 13:24:40,691 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 13:24:40,729 INFO [main] org.apache.nifi.bootstrap.RunNiFi Runtime Java version: 1.8.0_322
+2022-06-13 13:24:40,820 INFO [main] org.apache.nifi.bootstrap.Command Starting Apache NiFi...
+2022-06-13 13:24:40,821 INFO [main] org.apache.nifi.bootstrap.Command Working Directory: /opt/nifi/nifi-current
+2022-06-13 13:24:40,821 INFO [main] org.apache.nifi.bootstrap.Command Command: /usr/local/openjdk-8/bin/java -classpath /opt/nifi/nifi-current/./conf:/opt/nifi/nifi-current/./lib/nifi-runtime-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-server-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/logback-core-1.2.11.jar:/opt/nifi/nifi-current/./lib/nifi-properties-1.16.1.jar:/opt/nifi/nifi-current/./lib/jetty-schemas-5.2.jar:/opt/nifi/nifi-current/./lib/nifi-stateless-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/log4j-over-slf4j-1.7.36.jar:/opt/nifi/nifi-current/./lib/nifi-property-utils-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-framework-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/logback-classic-1.2.11.jar:/opt/nifi/nifi-current/./lib/slf4j-api-1.7.36.jar:/opt/nifi/nifi-current/./lib/jcl-over-slf4j-1.7.36.jar:/opt/nifi/nifi-current/./lib/nifi-nar-utils-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/javax.servlet-api-3.1.0.jar:/opt/nifi/nifi-current/./lib/nifi-stateless-bootstrap-1.16.1.jar:/opt/nifi/nifi-current/./lib/jul-to-slf4j-1.7.36.jar -Dorg.apache.jasper.compiler.disablejsr199=true -Xmx2048m -Xms512m -Dcurator-log-only-first-connection-issue-as-error-level=true -Djavax.security.auth.useSubjectCredsOnly=true -Djava.security.egd=file:/dev/urandom -Dzookeeper.admin.enableServer=false -Dsun.net.http.allowRestrictedHeaders=true -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djava.protocol.handler.pkgs=sun.net.www.protocol -Dnifi.properties.file.path=/opt/nifi/nifi-current/./conf/nifi.properties -Dnifi.bootstrap.listen.port=32925 -Dapp=NiFi -Dorg.apache.nifi.bootstrap.config.log.dir=/opt/nifi/nifi-current/logs org.apache.nifi.NiFi 
+2022-06-13 13:24:40,957 INFO [main] org.apache.nifi.bootstrap.Command Launched Apache NiFi with Process ID 109
+2022-06-13 13:24:44,341 INFO [NiFi Bootstrap Command Listener] org.apache.nifi.bootstrap.RunNiFi Apache NiFi now running and listening for Bootstrap requests on port 42211
+2022-06-13 13:36:05,923 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 13:36:05,926 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 13:36:05,927 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 13:36:05,927 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 13:36:05,944 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi has accepted the Shutdown Command and is shutting down now
+2022-06-13 13:36:05,982 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [109] shutdown in progress...
+2022-06-13 13:36:07,990 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [109] shutdown in progress...
+2022-06-13 13:36:09,410 INFO [main] org.apache.nifi.bootstrap.RunNiFi A shutdown was initiated. Will not restart NiFi
+2022-06-13 13:36:10,000 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [109] shutdown completed
+2022-06-13 13:36:32,126 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 13:36:32,143 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 13:36:32,145 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 13:36:32,145 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 13:36:32,163 INFO [main] org.apache.nifi.bootstrap.RunNiFi Runtime Java version: 1.8.0_322
+2022-06-13 13:36:32,276 INFO [main] org.apache.nifi.bootstrap.Command Starting Apache NiFi...
+2022-06-13 13:36:32,277 INFO [main] org.apache.nifi.bootstrap.Command Working Directory: /opt/nifi/nifi-current
+2022-06-13 13:36:32,278 INFO [main] org.apache.nifi.bootstrap.Command Command: /usr/local/openjdk-8/bin/java -classpath /opt/nifi/nifi-current/./conf:/opt/nifi/nifi-current/./lib/nifi-runtime-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-server-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/logback-core-1.2.11.jar:/opt/nifi/nifi-current/./lib/nifi-properties-1.16.1.jar:/opt/nifi/nifi-current/./lib/jetty-schemas-5.2.jar:/opt/nifi/nifi-current/./lib/nifi-stateless-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/log4j-over-slf4j-1.7.36.jar:/opt/nifi/nifi-current/./lib/nifi-property-utils-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-framework-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/logback-classic-1.2.11.jar:/opt/nifi/nifi-current/./lib/slf4j-api-1.7.36.jar:/opt/nifi/nifi-current/./lib/jcl-over-slf4j-1.7.36.jar:/opt/nifi/nifi-current/./lib/nifi-nar-utils-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/javax.servlet-api-3.1.0.jar:/opt/nifi/nifi-current/./lib/nifi-stateless-bootstrap-1.16.1.jar:/opt/nifi/nifi-current/./lib/jul-to-slf4j-1.7.36.jar -Dorg.apache.jasper.compiler.disablejsr199=true -Xmx2048m -Xms512m -Dcurator-log-only-first-connection-issue-as-error-level=true -Djavax.security.auth.useSubjectCredsOnly=true -Djava.security.egd=file:/dev/urandom -Dzookeeper.admin.enableServer=false -Dsun.net.http.allowRestrictedHeaders=true -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djava.protocol.handler.pkgs=sun.net.www.protocol -Dnifi.properties.file.path=/opt/nifi/nifi-current/./conf/nifi.properties -Dnifi.bootstrap.listen.port=41471 -Dapp=NiFi -Dorg.apache.nifi.bootstrap.config.log.dir=/opt/nifi/nifi-current/logs org.apache.nifi.NiFi 
+2022-06-13 13:36:32,465 INFO [main] org.apache.nifi.bootstrap.Command Launched Apache NiFi with Process ID 108
+2022-06-13 13:36:36,107 INFO [NiFi Bootstrap Command Listener] org.apache.nifi.bootstrap.RunNiFi Apache NiFi now running and listening for Bootstrap requests on port 41445
+2022-06-13 13:37:47,259 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 13:37:47,265 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 13:37:47,266 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 13:37:47,266 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 13:37:47,290 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi has accepted the Shutdown Command and is shutting down now
+2022-06-13 13:37:47,332 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [108] shutdown in progress...
+2022-06-13 13:37:49,342 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [108] shutdown in progress...
+2022-06-13 13:37:51,354 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [108] shutdown in progress...
+2022-06-13 13:37:53,379 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [108] shutdown in progress...
+2022-06-13 13:37:55,401 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [108] shutdown in progress...
+2022-06-13 19:38:22,824 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 19:38:22,828 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 19:38:22,829 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 19:38:22,829 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 19:38:22,862 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi is already running, listening to Bootstrap on port 41445
+2022-06-13 22:01:33,039 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 22:01:33,098 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 22:01:33,098 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 22:01:33,098 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 22:01:33,365 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi is already running, listening to Bootstrap on port 41445
+2022-06-13 22:04:04,540 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 22:04:04,546 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 22:04:04,546 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 22:04:04,546 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 22:04:04,585 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi is already running, listening to Bootstrap on port 41445
+2022-06-13 22:09:52,170 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 22:09:52,191 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 22:09:52,192 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 22:09:52,193 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 22:09:52,228 INFO [main] org.apache.nifi.bootstrap.RunNiFi Runtime Java version: 1.8.0_322
+2022-06-13 22:09:52,388 INFO [main] org.apache.nifi.bootstrap.Command Starting Apache NiFi...
+2022-06-13 22:09:52,400 INFO [main] org.apache.nifi.bootstrap.Command Working Directory: /opt/nifi/nifi-current
+2022-06-13 22:09:52,408 INFO [main] org.apache.nifi.bootstrap.Command Command: /usr/local/openjdk-8/bin/java -classpath /opt/nifi/nifi-current/./conf:/opt/nifi/nifi-current/./lib/nifi-runtime-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-server-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/logback-core-1.2.11.jar:/opt/nifi/nifi-current/./lib/nifi-properties-1.16.1.jar:/opt/nifi/nifi-current/./lib/jetty-schemas-5.2.jar:/opt/nifi/nifi-current/./lib/nifi-stateless-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/log4j-over-slf4j-1.7.36.jar:/opt/nifi/nifi-current/./lib/nifi-property-utils-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-framework-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/logback-classic-1.2.11.jar:/opt/nifi/nifi-current/./lib/slf4j-api-1.7.36.jar:/opt/nifi/nifi-current/./lib/jcl-over-slf4j-1.7.36.jar:/opt/nifi/nifi-current/./lib/nifi-nar-utils-1.16.1.jar:/opt/nifi/nifi-current/./lib/nifi-api-1.16.1.jar:/opt/nifi/nifi-current/./lib/javax.servlet-api-3.1.0.jar:/opt/nifi/nifi-current/./lib/nifi-stateless-bootstrap-1.16.1.jar:/opt/nifi/nifi-current/./lib/jul-to-slf4j-1.7.36.jar -Dorg.apache.jasper.compiler.disablejsr199=true -Xmx2048m -Xms512m -Dcurator-log-only-first-connection-issue-as-error-level=true -Djavax.security.auth.useSubjectCredsOnly=true -Djava.security.egd=file:/dev/urandom -Dzookeeper.admin.enableServer=false -Dsun.net.http.allowRestrictedHeaders=true -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djava.protocol.handler.pkgs=sun.net.www.protocol -Dnifi.properties.file.path=/opt/nifi/nifi-current/./conf/nifi.properties -Dnifi.bootstrap.listen.port=42039 -Dapp=NiFi -Dorg.apache.nifi.bootstrap.config.log.dir=/opt/nifi/nifi-current/logs org.apache.nifi.NiFi 
+2022-06-13 22:09:52,534 INFO [main] org.apache.nifi.bootstrap.Command Launched Apache NiFi with Process ID 108
+2022-06-13 22:09:56,915 INFO [NiFi Bootstrap Command Listener] org.apache.nifi.bootstrap.RunNiFi Apache NiFi now running and listening for Bootstrap requests on port 41471
+2022-06-13 23:13:09,068 INFO [main] o.a.n.b.NotificationServiceManager Successfully loaded the following 0 services: []
+2022-06-13 23:13:09,072 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STARTED
+2022-06-13 23:13:09,073 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_STOPPED
+2022-06-13 23:13:09,073 INFO [main] org.apache.nifi.bootstrap.RunNiFi Registered no Notification Services for Notification Type NIFI_DIED
+2022-06-13 23:13:09,093 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi has accepted the Shutdown Command and is shutting down now
+2022-06-13 23:13:09,154 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [108] shutdown in progress...
+2022-06-13 23:13:11,162 INFO [main] org.apache.nifi.bootstrap.Command NiFi PID [108] shutdown completed
+2022-06-13 23:13:11,477 INFO [main] org.apache.nifi.bootstrap.RunNiFi Status File no longer exists. Will not restart NiFi
